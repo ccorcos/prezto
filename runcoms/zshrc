@@ -53,3 +53,10 @@ alias edit="open -a TextEdit"
 
 # LaTeX tools
 export PATH=$PATH:/usr/texbin
+
+# Wrapper with the robot voice :)
+function talk() {
+	say $1 -v Zarvox
+}
+
+

@@ -5,6 +5,8 @@
 " :set numbers
 "
 
+" run python scripts with '\z'
+map <leader>z :!clear;python %<CR>
 
 set ruler
 set rulerformat=%=%h%m%r%w\ %(%c%V%),%l/%L\ %P
